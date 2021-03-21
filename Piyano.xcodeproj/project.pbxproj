@@ -15,6 +15,13 @@
 		F42F76EC2607A40B00310CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F76EA2607A40B00310CFE /* LaunchScreen.storyboard */; };
 		F42F76F72607A40B00310CFE /* PiyanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F76F62607A40B00310CFE /* PiyanoTests.swift */; };
 		F42F77022607A40B00310CFE /* PiyanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F77012607A40B00310CFE /* PiyanoUITests.swift */; };
+		F42F771A2607ABF200310CFE /* A.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77132607ABF200310CFE /* A.wav */; };
+		F42F771B2607ABF200310CFE /* C.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77142607ABF200310CFE /* C.wav */; };
+		F42F771C2607ABF200310CFE /* B.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77152607ABF200310CFE /* B.wav */; };
+		F42F771D2607ABF200310CFE /* F.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77162607ABF200310CFE /* F.wav */; };
+		F42F771E2607ABF200310CFE /* G.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77172607ABF200310CFE /* G.wav */; };
+		F42F771F2607ABF200310CFE /* E.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77182607ABF200310CFE /* E.wav */; };
+		F42F77202607ABF200310CFE /* D.wav in Resources */ = {isa = PBXBuildFile; fileRef = F42F77192607ABF200310CFE /* D.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +56,13 @@
 		F42F76FD2607A40B00310CFE /* PiyanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiyanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F42F77012607A40B00310CFE /* PiyanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyanoUITests.swift; sourceTree = "<group>"; };
 		F42F77032607A40B00310CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F77132607ABF200310CFE /* A.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = A.wav; sourceTree = "<group>"; };
+		F42F77142607ABF200310CFE /* C.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = C.wav; sourceTree = "<group>"; };
+		F42F77152607ABF200310CFE /* B.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = B.wav; sourceTree = "<group>"; };
+		F42F77162607ABF200310CFE /* F.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = F.wav; sourceTree = "<group>"; };
+		F42F77172607ABF200310CFE /* G.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = G.wav; sourceTree = "<group>"; };
+		F42F77182607ABF200310CFE /* E.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = E.wav; sourceTree = "<group>"; };
+		F42F77192607ABF200310CFE /* D.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = D.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +120,7 @@
 				F42F76E82607A40B00310CFE /* Assets.xcassets */,
 				F42F76EA2607A40B00310CFE /* LaunchScreen.storyboard */,
 				F42F76ED2607A40B00310CFE /* Info.plist */,
+				F42F77122607ABF200310CFE /* Sounds */,
 			);
 			path = Piyano;
 			sourceTree = "<group>";
@@ -126,6 +141,20 @@
 				F42F77032607A40B00310CFE /* Info.plist */,
 			);
 			path = PiyanoUITests;
+			sourceTree = "<group>";
+		};
+		F42F77122607ABF200310CFE /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				F42F77132607ABF200310CFE /* A.wav */,
+				F42F77142607ABF200310CFE /* C.wav */,
+				F42F77152607ABF200310CFE /* B.wav */,
+				F42F77162607ABF200310CFE /* F.wav */,
+				F42F77172607ABF200310CFE /* G.wav */,
+				F42F77182607ABF200310CFE /* E.wav */,
+				F42F77192607ABF200310CFE /* D.wav */,
+			);
+			path = Sounds;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -231,9 +260,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F42F771E2607ABF200310CFE /* G.wav in Resources */,
 				F42F76EC2607A40B00310CFE /* LaunchScreen.storyboard in Resources */,
+				F42F771D2607ABF200310CFE /* F.wav in Resources */,
 				F42F76E92607A40B00310CFE /* Assets.xcassets in Resources */,
+				F42F771A2607ABF200310CFE /* A.wav in Resources */,
+				F42F771C2607ABF200310CFE /* B.wav in Resources */,
+				F42F771F2607ABF200310CFE /* E.wav in Resources */,
+				F42F77202607ABF200310CFE /* D.wav in Resources */,
 				F42F76E72607A40A00310CFE /* Main.storyboard in Resources */,
+				F42F771B2607ABF200310CFE /* C.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +473,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
 				INFOPLIST_FILE = Piyano/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -455,6 +492,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2N5BZXFW99;
 				INFOPLIST_FILE = Piyano/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
