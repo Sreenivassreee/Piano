@@ -1,0 +1,592 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42F76E02607A40A00310CFE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F76DF2607A40A00310CFE /* AppDelegate.swift */; };
+		F42F76E22607A40A00310CFE /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F76E12607A40A00310CFE /* SceneDelegate.swift */; };
+		F42F76E42607A40A00310CFE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F76E32607A40A00310CFE /* ViewController.swift */; };
+		F42F76E72607A40A00310CFE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F76E52607A40A00310CFE /* Main.storyboard */; };
+		F42F76E92607A40B00310CFE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F42F76E82607A40B00310CFE /* Assets.xcassets */; };
+		F42F76EC2607A40B00310CFE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F42F76EA2607A40B00310CFE /* LaunchScreen.storyboard */; };
+		F42F76F72607A40B00310CFE /* PiyanoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F76F62607A40B00310CFE /* PiyanoTests.swift */; };
+		F42F77022607A40B00310CFE /* PiyanoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F42F77012607A40B00310CFE /* PiyanoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F42F76F32607A40B00310CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F76D42607A40A00310CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F76DB2607A40A00310CFE;
+			remoteInfo = Piyano;
+		};
+		F42F76FE2607A40B00310CFE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F42F76D42607A40A00310CFE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F42F76DB2607A40A00310CFE;
+			remoteInfo = Piyano;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F42F76DC2607A40A00310CFE /* Piyano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Piyano.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F76DF2607A40A00310CFE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F42F76E12607A40A00310CFE /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F42F76E32607A40A00310CFE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F42F76E62607A40A00310CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F42F76E82607A40B00310CFE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F42F76EB2607A40B00310CFE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F42F76ED2607A40B00310CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F76F22607A40B00310CFE /* PiyanoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiyanoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F76F62607A40B00310CFE /* PiyanoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyanoTests.swift; sourceTree = "<group>"; };
+		F42F76F82607A40B00310CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F42F76FD2607A40B00310CFE /* PiyanoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PiyanoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42F77012607A40B00310CFE /* PiyanoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiyanoUITests.swift; sourceTree = "<group>"; };
+		F42F77032607A40B00310CFE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42F76D92607A40A00310CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76EF2607A40B00310CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76FA2607A40B00310CFE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42F76D32607A40A00310CFE = {
+			isa = PBXGroup;
+			children = (
+				F42F76DE2607A40A00310CFE /* Piyano */,
+				F42F76F52607A40B00310CFE /* PiyanoTests */,
+				F42F77002607A40B00310CFE /* PiyanoUITests */,
+				F42F76DD2607A40A00310CFE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F42F76DD2607A40A00310CFE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42F76DC2607A40A00310CFE /* Piyano.app */,
+				F42F76F22607A40B00310CFE /* PiyanoTests.xctest */,
+				F42F76FD2607A40B00310CFE /* PiyanoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42F76DE2607A40A00310CFE /* Piyano */ = {
+			isa = PBXGroup;
+			children = (
+				F42F76DF2607A40A00310CFE /* AppDelegate.swift */,
+				F42F76E12607A40A00310CFE /* SceneDelegate.swift */,
+				F42F76E32607A40A00310CFE /* ViewController.swift */,
+				F42F76E52607A40A00310CFE /* Main.storyboard */,
+				F42F76E82607A40B00310CFE /* Assets.xcassets */,
+				F42F76EA2607A40B00310CFE /* LaunchScreen.storyboard */,
+				F42F76ED2607A40B00310CFE /* Info.plist */,
+			);
+			path = Piyano;
+			sourceTree = "<group>";
+		};
+		F42F76F52607A40B00310CFE /* PiyanoTests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F76F62607A40B00310CFE /* PiyanoTests.swift */,
+				F42F76F82607A40B00310CFE /* Info.plist */,
+			);
+			path = PiyanoTests;
+			sourceTree = "<group>";
+		};
+		F42F77002607A40B00310CFE /* PiyanoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F42F77012607A40B00310CFE /* PiyanoUITests.swift */,
+				F42F77032607A40B00310CFE /* Info.plist */,
+			);
+			path = PiyanoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42F76DB2607A40A00310CFE /* Piyano */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F77062607A40B00310CFE /* Build configuration list for PBXNativeTarget "Piyano" */;
+			buildPhases = (
+				F42F76D82607A40A00310CFE /* Sources */,
+				F42F76D92607A40A00310CFE /* Frameworks */,
+				F42F76DA2607A40A00310CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Piyano;
+			productName = Piyano;
+			productReference = F42F76DC2607A40A00310CFE /* Piyano.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F42F76F12607A40B00310CFE /* PiyanoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F77092607A40B00310CFE /* Build configuration list for PBXNativeTarget "PiyanoTests" */;
+			buildPhases = (
+				F42F76EE2607A40B00310CFE /* Sources */,
+				F42F76EF2607A40B00310CFE /* Frameworks */,
+				F42F76F02607A40B00310CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F76F42607A40B00310CFE /* PBXTargetDependency */,
+			);
+			name = PiyanoTests;
+			productName = PiyanoTests;
+			productReference = F42F76F22607A40B00310CFE /* PiyanoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F42F76FC2607A40B00310CFE /* PiyanoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42F770C2607A40B00310CFE /* Build configuration list for PBXNativeTarget "PiyanoUITests" */;
+			buildPhases = (
+				F42F76F92607A40B00310CFE /* Sources */,
+				F42F76FA2607A40B00310CFE /* Frameworks */,
+				F42F76FB2607A40B00310CFE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F42F76FF2607A40B00310CFE /* PBXTargetDependency */,
+			);
+			name = PiyanoUITests;
+			productName = PiyanoUITests;
+			productReference = F42F76FD2607A40B00310CFE /* PiyanoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42F76D42607A40A00310CFE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					F42F76DB2607A40A00310CFE = {
+						CreatedOnToolsVersion = 12.4;
+					};
+					F42F76F12607A40B00310CFE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F42F76DB2607A40A00310CFE;
+					};
+					F42F76FC2607A40B00310CFE = {
+						CreatedOnToolsVersion = 12.4;
+						TestTargetID = F42F76DB2607A40A00310CFE;
+					};
+				};
+			};
+			buildConfigurationList = F42F76D72607A40A00310CFE /* Build configuration list for PBXProject "Piyano" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F42F76D32607A40A00310CFE;
+			productRefGroup = F42F76DD2607A40A00310CFE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42F76DB2607A40A00310CFE /* Piyano */,
+				F42F76F12607A40B00310CFE /* PiyanoTests */,
+				F42F76FC2607A40B00310CFE /* PiyanoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F42F76DA2607A40A00310CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F76EC2607A40B00310CFE /* LaunchScreen.storyboard in Resources */,
+				F42F76E92607A40B00310CFE /* Assets.xcassets in Resources */,
+				F42F76E72607A40A00310CFE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76F02607A40B00310CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76FB2607A40B00310CFE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42F76D82607A40A00310CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F76E42607A40A00310CFE /* ViewController.swift in Sources */,
+				F42F76E02607A40A00310CFE /* AppDelegate.swift in Sources */,
+				F42F76E22607A40A00310CFE /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76EE2607A40B00310CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F76F72607A40B00310CFE /* PiyanoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F42F76F92607A40B00310CFE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42F77022607A40B00310CFE /* PiyanoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F42F76F42607A40B00310CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F76DB2607A40A00310CFE /* Piyano */;
+			targetProxy = F42F76F32607A40B00310CFE /* PBXContainerItemProxy */;
+		};
+		F42F76FF2607A40B00310CFE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F42F76DB2607A40A00310CFE /* Piyano */;
+			targetProxy = F42F76FE2607A40B00310CFE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F42F76E52607A40A00310CFE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F76E62607A40A00310CFE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F42F76EA2607A40B00310CFE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F42F76EB2607A40B00310CFE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F42F77042607A40B00310CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F42F77052607A40B00310CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F42F77072607A40B00310CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Piyano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.Piyano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F42F77082607A40B00310CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Piyano/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.Piyano;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F42F770A2607A40B00310CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PiyanoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.PiyanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piyano.app/Piyano";
+			};
+			name = Debug;
+		};
+		F42F770B2607A40B00310CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PiyanoTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.PiyanoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Piyano.app/Piyano";
+			};
+			name = Release;
+		};
+		F42F770D2607A40B00310CFE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PiyanoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.PiyanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piyano;
+			};
+			name = Debug;
+		};
+		F42F770E2607A40B00310CFE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = PiyanoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.stevebrains.PiyanoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Piyano;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42F76D72607A40A00310CFE /* Build configuration list for PBXProject "Piyano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F77042607A40B00310CFE /* Debug */,
+				F42F77052607A40B00310CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F77062607A40B00310CFE /* Build configuration list for PBXNativeTarget "Piyano" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F77072607A40B00310CFE /* Debug */,
+				F42F77082607A40B00310CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F77092607A40B00310CFE /* Build configuration list for PBXNativeTarget "PiyanoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F770A2607A40B00310CFE /* Debug */,
+				F42F770B2607A40B00310CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42F770C2607A40B00310CFE /* Build configuration list for PBXNativeTarget "PiyanoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42F770D2607A40B00310CFE /* Debug */,
+				F42F770E2607A40B00310CFE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42F76D42607A40A00310CFE /* Project object */;
+}
