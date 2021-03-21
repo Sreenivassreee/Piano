@@ -13,7 +13,7 @@ class ViewController: UIViewController {
     var player: AVAudioPlayer?
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+
     }
 
     @IBAction func ButtonPressed(_ sender: UIButton) {
@@ -21,7 +21,6 @@ class ViewController: UIViewController {
     }
     
    
-
     func playSound(sound: String) {
         guard let url = Bundle.main.url(forResource: sound, withExtension: "wav") else { return }
 
